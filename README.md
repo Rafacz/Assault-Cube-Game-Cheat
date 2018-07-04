@@ -2,9 +2,9 @@
 
 ## This application is simple aimlock. Its detecting nearest enemy on sight of view.
 
-[ESP](https://streamable.com/w8lou)
+[ESP - Video](https://streamable.com/w8lou)
 
-[Aimbot](https://streamable.com/z2hje)
+[Aimbot - Video](https://streamable.com/z2hje)
 
 
 DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance.
