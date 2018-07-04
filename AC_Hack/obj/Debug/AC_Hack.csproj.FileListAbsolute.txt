@@ -7,3 +7,5 @@ c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\D
 c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.csproj.CopyComplete
 c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.exe
 c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.pdb
+C:\Users\Skuty Wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.Overlay.resources
+C:\Users\Skuty Wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.csproj.GenerateResource.cache

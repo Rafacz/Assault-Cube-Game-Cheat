@@ -47,9 +47,9 @@ namespace AC_Hack.Properties
 
         private void AimTarget(VAMemory vam, int x)
         {
+            CalculateAngles(x);
             if (enemy[x].Health > 0 && enemy[x].Visible > -1)
             {
-                CalculateAngles(x);
                 vam.WriteFloat(player.MOUSE_X_ADDRESS, PitchX);
                 vam.WriteFloat(player.MOUSE_Y_ADDRESS, YawY);
             }
@@ -77,8 +77,5 @@ namespace AC_Hack.Properties
             }
             return iEnemy;
         }
-
-
-
     }
 }

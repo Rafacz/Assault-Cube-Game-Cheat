@@ -32,12 +32,12 @@ namespace AC_Hack
             Visible = visible;
         }
 
-        public void setBaseAddress(VAMemory vam)
+        private void setBaseAddress(VAMemory vam)
         {
             BASE_ADDRESS = (IntPtr)vam.ReadInt32((IntPtr)BASE_POINTER);
         }
 
-        public void setPlayerAddress(VAMemory vam, int PlayerNumber)
+        private void setPlayerAddress(VAMemory vam, int PlayerNumber)
         {
             PLAYER_ADDRESS = (IntPtr)vam.ReadInt32(BASE_ADDRESS + 0x04 + (PlayerNumber * 0x04));
         }
@@ -53,7 +53,5 @@ namespace AC_Hack
             ZPos = vam.ReadFloat(PLAYER_ADDRESS + 0x3C);
             Visible = vam.ReadFloat(PLAYER_ADDRESS + 0x408);
         }
-
-
     }
 }
