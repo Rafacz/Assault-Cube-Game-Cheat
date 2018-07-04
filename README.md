@@ -1,6 +1,6 @@
 # Assault Cube cheat application
 
-## This application is simple aimlock. Its detecting nearest enemy on sight of view.
+## This application is simple aimlock and ESP overlay.
 
 [ESP - Video](https://streamable.com/w8lou)
 
