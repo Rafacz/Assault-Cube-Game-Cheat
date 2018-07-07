@@ -1,16 +1,27 @@
 # Assault Cube cheat application
 
-## This application is simple aimlock. Its detecting nearest enemy on sight of view.
+## This application is simple aimlock and ESP overlay.
 
-[Output video #1](https://streamable.com/zrwrp)
+[ESP - Video](https://streamable.com/w8lou)
 
-[Output video #2](https://streamable.com/z2hje)
+[Aimbot - Video](https://streamable.com/zrwrp)
 
 
-I'm planning in the near future to add ESP (Wallhack) to this application. I will try with dll injection as it gives more fun and flexibility. 
+DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance.
+
+Future plans for this application.
+  - Edit math
+  - Add health bars
+  - Line pointing enemy position
+  - Radar
+  - Nicknames
+  - Fix rectangle size.
+  - Fix flickering using doublebuffer
 
 
 All memory addresses were retrieved using Cheat Engine for game version 1.2.0.2
+
+To read and write process memory I've used VAMemory DLL but same results can be achieved using win32 api functions.
 
 
 Feel free to test this application.
