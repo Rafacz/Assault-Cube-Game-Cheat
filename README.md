@@ -2,19 +2,19 @@
 
 ## This application is simple aimlock and ESP overlay.
 
-[ESP - Video](https://streamable.com/w8lou)
+[ESP - Video](https://streamable.com/owwxm)
 
-[Aimbot - Video](https://streamable.com/zrwrp)
+[Aimbot - Video](https://streamable.com/2cq00)
 
 
-DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance.
+DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance. ESP will work correctly on 1280x768 resolution.
 
 Future plans for this application.
   - Edit math
-  - Add health bars
-  - Line pointing enemy position
+  - ~~Add health bars~~
+  - ~~Line pointing enemy position~~
   - Radar
-  - Nicknames
+  - ~~Nicknames~~
   - Fix rectangle size.
   - Fix flickering using doublebuffer
 
