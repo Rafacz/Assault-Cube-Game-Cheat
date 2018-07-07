@@ -23,6 +23,9 @@ namespace AC_Hack
         [DllImport("user32.dll", SetLastError = true)]
         static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
+        public int WindowHeight { get; private set; }
+        public int WindowWidth { get; private set; }
+
         public struct RECT
         {
             public int left, top, right, bottom;
@@ -35,7 +38,6 @@ namespace AC_Hack
 
         private void Overlay_Load(object sender, EventArgs e)
         {
-            DoubleBuffered = true;
             this.BackColor = Color.Black;
             this.TransparencyKey = Color.Black;
             this.TopMost = true;
@@ -48,6 +50,8 @@ namespace AC_Hack
             this.Size = new Size(rect.right - rect.left, rect.bottom - rect.top);
             this.Top = rect.top;
             this.Left = rect.left;
+            WindowHeight = this.Bounds.Height;
+            WindowWidth = this.Bounds.Width;
         }
     }
 }

@@ -9,3 +9,13 @@ c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\D
 c:\users\skuty wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.pdb
 C:\Users\Skuty Wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.Overlay.resources
 C:\Users\Skuty Wafel\documents\visual studio 2017\Projects\AC_Hack\AC_Hack\obj\Debug\AC_Hack.csproj.GenerateResource.cache
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\bin\Debug\AC_Hack.exe.config
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\bin\Debug\AC_Hack.exe
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\bin\Debug\AC_Hack.pdb
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.csprojAssemblyReference.cache
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.Overlay.resources
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.csproj.GenerateResource.cache
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.csproj.CoreCompileInputs.cache
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.csproj.CopyComplete
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.exe
+C:\Users\Skuty Wafel\Documents\Visual Studio 2017\Projects\ArduinoToGoogleSheets\Assault-Cube-Game-Cheat\AC_Hack\obj\Debug\AC_Hack.pdb

@@ -25,9 +25,9 @@ namespace AC_Hack.Properties
             int closestEnemy;
             for (int i = 0; i < NumberOfPlayers - 1; i++)
             {
-                player.getValuesFromPointers(vam);
+                player.GetValuesFromPointers(vam);
                 bot.getBotData(vam, i);
-                enemy.Add(new Enemy(bot.Health, bot.XPos, bot.YPos, bot.ZPos, bot.Visible));
+                enemy.Add(new Enemy(bot.Health, bot.XPos, bot.YPos, bot.ZPos, bot.Visible, bot.NickName));
             }
             closestEnemy = getClosestEnemy();
             AimTarget(vam, closestEnemy);

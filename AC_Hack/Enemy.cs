@@ -17,19 +17,21 @@ namespace AC_Hack
         public float YPos { get; private set; }
         public float ZPos { get; private set; }
         public float Visible { get; private set; }
+        public string NickName { get; set; }
 
         public Enemy()
         {
 
         }
 
-        public Enemy(int health, float xPos, float yPos, float zPos, float visible)
+        public Enemy(int health, float xPos, float yPos, float zPos, float visible, string nickname)
         {
             Health = health;
             XPos = xPos;
             YPos = yPos;
             ZPos = zPos;
             Visible = visible;
+            NickName = nickname;
         }
 
         private void setBaseAddress(VAMemory vam)
@@ -52,6 +54,7 @@ namespace AC_Hack
             YPos = vam.ReadFloat(PLAYER_ADDRESS + 0x38);
             ZPos = vam.ReadFloat(PLAYER_ADDRESS + 0x3C);
             Visible = vam.ReadFloat(PLAYER_ADDRESS + 0x408);
+            NickName = vam.ReadStringASCII(PLAYER_ADDRESS + 0x225, 16).ToString();
         }
     }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
-using System.Windows.Forms;
 
 namespace AC_Hack
 {
@@ -12,32 +11,29 @@ namespace AC_Hack
         {
             string process = "ac_client";
 
-            VAMemory vam = new VAMemory(process);
+            #region instance
+
+            VAMemory vam = new VAMemory(process); //DLL READ_PROCESS_MEMORY
             Player player = new Player();
             Enemy bot = new Enemy();
             List<Enemy> enemy = new List<Enemy>();
             Aimbot aimbot = new Aimbot(enemy, bot, player);
             Overlay overlay = new Overlay();
-
-            ESP esp = new ESP(enemy, bot, player);
-
-            Pen pen = new Pen(Color.SkyBlue, 1);
+            ESP esp = new ESP(enemy, bot, player, overlay);
             Graphics g = overlay.CreateGraphics();
 
+            #endregion
 
             overlay.Show();
 
-
             while (true)
             {
-                //aimbot.Run(vam, 2);
                 overlay.Refresh();
-                esp.Run(g, pen, overlay, vam, 2);
-
-                Thread.Sleep(7);
+                player.GetNumberOfPlayers(vam);
+                esp.Run(g, overlay, vam, player.NumberOfPlayers);
+                aimbot.Run(vam, player.NumberOfPlayers);
+                Thread.Sleep(13);
             }
-
-
         }  
     }
 }
