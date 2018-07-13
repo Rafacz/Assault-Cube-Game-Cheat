@@ -13,27 +13,30 @@ namespace AC_Hack
 
             #region instance
 
+            Overlay overlay = new Overlay(); //INVISIBLE OVERLAY WINDOW
             VAMemory vam = new VAMemory(process); //DLL READ_PROCESS_MEMORY
             Player player = new Player();
             Enemy bot = new Enemy();
-            List<Enemy> enemy = new List<Enemy>();
-            Aimbot aimbot = new Aimbot(enemy, bot, player);
-            Overlay overlay = new Overlay();
-            ESP esp = new ESP(enemy, bot, player, overlay);
+
+            List<Enemy> enemy = new List<Enemy>(); //LIST OF ENEMIES
+            Calculator calc = new Calculator(enemy, player, vam, overlay); //MATH
             Graphics g = overlay.CreateGraphics();
+
+            Aimbot aimbot = new Aimbot(enemy, calc, bot, player, vam);
+            ESP esp = new ESP(enemy, bot, player, overlay, calc, vam);
 
             #endregion
 
+            player.GetNumberOfPlayers(vam);
             overlay.Show();
 
             while (true)
             {
                 overlay.Refresh();
-                player.GetNumberOfPlayers(vam);
-                esp.Run(g, overlay, vam, player.NumberOfPlayers);
-                aimbot.Run(vam, player.NumberOfPlayers);
-                Thread.Sleep(13);
+                esp.Run(g, overlay, player.NumberOfPlayers);
+                aimbot.Run(player.NumberOfPlayers);
+                Thread.Sleep(12);
             }
-        }  
+        }
     }
 }

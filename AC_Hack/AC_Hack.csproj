@@ -59,6 +59,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Aimbot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Calculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
