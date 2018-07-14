@@ -13,10 +13,10 @@ Future plans for this application.
   - Edit math
   - ~~Add health bars~~
   - ~~Line pointing enemy position~~
-  - Radar
+  - ~~Radar~~
   - ~~Nicknames~~
   - Fix rectangle size.
-  - Fix flickering using doublebuffer
+  - Fix flicker using doublebuffer
 
 
 All memory addresses were retrieved using Cheat Engine for game version 1.2.0.2
