@@ -24,6 +24,7 @@ namespace AC_Hack
 
             Aimbot aimbot = new Aimbot(enemy, calc, bot, player, vam);
             ESP esp = new ESP(enemy, bot, player, overlay, calc, vam);
+            Radar radar = new Radar(player, enemy, bot, vam, calc);
 
             #endregion
 
@@ -34,7 +35,8 @@ namespace AC_Hack
             {
                 overlay.Refresh();
                 esp.Run(g, overlay, player.NumberOfPlayers);
-                aimbot.Run(player.NumberOfPlayers);
+                //aimbot.Run(player.NumberOfPlayers);
+                radar.DrawRadar(g, player.NumberOfPlayers);
                 Thread.Sleep(12);
             }
         }

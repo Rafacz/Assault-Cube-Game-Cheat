@@ -13,6 +13,7 @@ namespace AC_Hack
         public IntPtr POSITION_Z_ADDRESS { get { return PLAYER_BASE_POINTER + 0x3C; } }
         public IntPtr HEALTH_ADDRESS { get { return PLAYER_BASE_POINTER + 0xF8; } }
         public IntPtr NUMBER_OF_PLAYERS_ADDRESS { get; private set; } = (IntPtr)0x0050f500;
+        public IntPtr ROTATION_ANGLE_ADDRESS { get; private set; } = (IntPtr)0x0050F4F4;
 
         public int NumberOfPlayers { get; private set; }
         public float MouseXPos { get; private set; }
@@ -21,10 +22,17 @@ namespace AC_Hack
         public float XPos { get; private set; }
         public float YPos { get; private set; }
         public float ZPos { get; private set; }
+        public float RotationAngle { get; private set; }
 
         public void GetNumberOfPlayers(VAMemory vam)
         {
             NumberOfPlayers = vam.ReadInt32(NUMBER_OF_PLAYERS_ADDRESS);
+        }
+
+        private void GetRotationAngle(VAMemory vam)
+        {
+            int temp = vam.ReadInt32(ROTATION_ANGLE_ADDRESS);
+            RotationAngle = vam.ReadFloat((IntPtr)temp + 0x40);
         }
 
         public void GetValuesFromPointers(VAMemory vam)
@@ -36,6 +44,7 @@ namespace AC_Hack
             XPos = vam.ReadFloat(POSITION_X_ADDRESS);
             YPos = vam.ReadFloat(POSITION_Y_ADDRESS);
             ZPos = vam.ReadFloat(POSITION_Z_ADDRESS);
+            GetRotationAngle(vam);
         }
     }
 }
