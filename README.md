@@ -10,11 +10,11 @@
 
 [Aimbot - Video](https://streamable.com/2cq00)
 
-I've decided to stop developing this application. I'm planning in the future to create cheat for more popular game with anticheat bypass. There is still alot of things i have to learn first.
+#### I've decided to stop developing this application. I'm planning in the future to create cheat for more popular game with anticheat bypass. There is still alot of things i have to learn first.
 
 DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance. ESP will work correctly on 1280x768 game resolution.
 
-Future plans for this application.
+Things that could be done in this project.
   - Edit math (ESP - Rectangle size)
   - Fix flicker using doublebuffer
   - ~~Health bars~~
