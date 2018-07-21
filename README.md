@@ -1,22 +1,26 @@
 # Assault Cube cheat application
 
-## This application is simple aimlock and ESP overlay.
+## This application is simple aimlock and ESP overlay with radar.
+
+<p align="center">
+  <img src="https://i.imgur.com/3W8vKa7.jpg" width="900" alt="accessibility text">
+</p>
 
 [ESP - Video](https://streamable.com/owwxm)
 
 [Aimbot - Video](https://streamable.com/2cq00)
 
+I've decided to stop developing this application. I'm planning in the future to create cheat for more popular game with anticheat bypass. There is still alot of things i have to learn first.
 
-DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance. ESP will work correctly on 1280x768 resolution.
+DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance. ESP will work correctly on 1280x768 game resolution.
 
 Future plans for this application.
-  - Edit math
-  - ~~Add health bars~~
-  - ~~Line pointing enemy position~~
+  - Edit math (ESP - Rectangle size)
+  - Fix flicker using doublebuffer
+  - ~~Health bars~~
+  - ~~Line pointing enemy~~
   - ~~Radar~~
   - ~~Nicknames~~
-  - Fix rectangle size.
-  - Fix flicker using doublebuffer
 
 
 All memory addresses were retrieved using Cheat Engine for game version 1.2.0.2
