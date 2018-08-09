@@ -6,9 +6,7 @@
   <img src="https://i.imgur.com/3W8vKa7.jpg" width="900" alt="accessibility text">
 </p>
 
-[ESP - Video](https://streamable.com/owwxm)
-
-[Aimbot - Video](https://streamable.com/2cq00)
+[Output-Video](https://www.youtube.com/watch?v=tONMmYQxO9c)
 
 #### I've decided to stop developing this application. I'm planning in the future to create cheat for more popular game with anticheat bypass. There is still alot of things i have to learn first.
 
