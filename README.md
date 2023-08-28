@@ -4,9 +4,6 @@
   <img src="https://i.imgur.com/3W8vKa7.jpg" width="900" alt="accessibility text">
 </p>
 
-[Output-Video](https://www.youtube.com/watch?v=tONMmYQxO9c)
-
-
 DrawRectangle is still seeking for my attention as its not drawing correctly at certain distance. ESP will work correctly on 1280x768 game resolution.
 
 Things that could be done in this project.
